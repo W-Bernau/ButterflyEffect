@@ -3,7 +3,7 @@ var viewWidth = window.innerWidth,
     viewHeight = window.innerHeight,
     drawingCanvas = document.getElementById("drawing_canvas"),
     ctx,
-    timeStep = (3/60),
+    timeStep = (1/60),
     time = 0;
 
 // pendulum
@@ -230,12 +230,12 @@ var settings = {
     length2:120,
     mass1:10,
     mass2:10,
-    mathTimeScale:5.6,
-    Theta1:6,
-    Theta2:6,
+    mathTimeScale:3.6,
+    Theta1:6.5,
+    Theta2:3.9,
     lineWidthPhys:1,
     colorWhite:'#fff',
-    radPhys:10,
+    radPhys:0.3,
     apply:function() {
 
         length1 = this.length1;
@@ -272,7 +272,7 @@ gui.add(settings, 'mass2', 1, 30);
 gui.add(settings, 'mathTimeScale', 1, 10);
 gui.add(settings, 'Theta1', 0, 12);
 gui.add(settings, 'Theta2', 0, 12);
-gui.add(settings, 'lineWidthPhys', 0, 1);
+gui.add(settings, 'lineWidthPhys', 0.01, 1);
 gui.add(settings, 'radPhys', 0,1);
 gui.add(settings, 'colorWhite');
 gui.add(settings, 'apply');

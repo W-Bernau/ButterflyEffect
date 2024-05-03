@@ -39,7 +39,6 @@ body{
 }
 
 .card1{
-    background-color: black;
     border-color: #ff004f;
     border-style: solid;
     background: #000000df;
@@ -52,15 +51,17 @@ body{
     transition: 0.5s;
 }
 
+.card1 img{
+    width: 100%;
+}
 
 .card1:hover{
-    background: #ff004f;
+    border-radius: 2px;
     transform: translateY(-10px);
 }
 
 .card2{
-    background-color: black;
-    background: #000000df;
+    background-color: #000000df;
     border-color: #ff004f;
     border-style: solid;
     padding: 1em;
@@ -70,9 +71,15 @@ body{
     margin: 1em;
     color: white;
     transition: 0.5s;
+    max-height: 400px;
 }
+.card2 img{
+    width: 60%;
+    max-height: 400px;
+}
+
 .card2:hover{
-    background: #ff004f;
+    border-radius: 2px;
     transform: translateY(-10px);
 }
 
@@ -89,10 +96,13 @@ body{
     color: white;
     transition: 0.5s;
 }
+.card3 img{
+    width: 90%;
+}
+
 .card3:hover{
-    background: #ff004f;
+    border-radius: 2px;
     transform: translateY(-10px);
-    
 }
 .card4{
     background-color: black;
@@ -107,10 +117,13 @@ body{
     color: white;
     transition: 0.5s;
 }
+.card4 img{
+    width: 100%;
+}
+
 .card4:hover{
-    background: #ff004f;
+    border-radius: 2px;
     transform: translateY(-10px);
-    
 }
 .Pendulum{
     text-align: center;
