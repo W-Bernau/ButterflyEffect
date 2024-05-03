@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.9/dat.gui.min.js" integrity="sha512-WoO4Ih0CDOSLYafy22wZD/mcJ7k0ESLqtQsFa6zFKnEUrbtuGU+GkLtVhgt93xa2qewG5gKEC6CWlN8OaCTSVg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="billiardsStyle.css">
+</head>
+
+    <div class="header">
+        <h1>Billiards</h1>
+        <p>Scroll for more shapes...</p>
+    </div>
+
+    <div id="container">
+        <canvas id="drawing_canvas"></canvas>
+            <input type="range" min="70" max="130" value="0.5" class="sliderX" id="xRange">   
+            <input type="range" min="70" max="120" value="120" class="sliderY" id="yRange">   
+      </div>
+      <div class="cards">
+      <div class="card1">
+        <div class="startStop">
+            <button id="startStop">Stop</button>
+        </div>
+        <div class="startStop">
+            <button id="stopStart">Start</button>
+        </div>
+        
+    </div>
+    </div>
+ 
+    
+    
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Butterfly Effect</title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p2.js/0.7.1/p2.min.js" integrity="sha512-SU6tqA+YK4akayI+sUt7HarDVpnJ9NdWy5UwIp5Tnx7KwzoSfwthJI8TBp+Job5IzhHnwyGcL+bRcKJ/n7TUPA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="billiardsScript.js"></script>
+</html>

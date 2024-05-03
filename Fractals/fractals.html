@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="fractalsStyle.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.min.js" integrity="sha512-0zGLOFv/+OQ6YfVCSGDQWhrDRx0ONmBqWvs3gI4olm8i6xtKoG1FhEnB4eTaWCVnojyfUDgE8Izeln+mAJAkFA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/addons/p5.sound.min.js"></script>
+    <title>Butterfly</title>
+    
+</head>
+<body>
+    <div class="header">
+        <h1>The Mandlebrot & Burning Ship Sets</h1>
+        <p>Drag for more...<br> (Recursion limited for sake of efficieny)</p>
+    </div>
+    <div class="viewer">
+        
+        <script src="fractalsScript.js"></script>
+    </div>
+    <script src="burningShip.js"></script>
+    
+</body>
+<body class="ship" onload="checkCanvasIsSupported();" style="background: #000">
+    <div class="burningS">
+        <canvas id="canvas" class="sierpinsky"></canvas>
+    <br/>
+    </div>
+    
+    </body>
+    <div class="footer"></div>
+</html>

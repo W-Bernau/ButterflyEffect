@@ -1,0 +1,144 @@
+body{
+    background-size: cover;
+    justify-content: center;
+    margin:0;
+    padding-top: 2%;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(0,0,0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+.title{
+    padding-top: 10px;
+    width: 100%;
+    height: fit-content;
+    justify-items: center;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+.header p{
+    color: white;
+}
+.cards{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    transform: translateY(20%);
+    flex-wrap: wrap;
+}
+
+.card1{
+    background-color: black;
+    border-color: #ff004f;
+    border-style: solid;
+    background: #000000df;
+    padding: 1em;
+    border-radius: 30px;
+    width: 24%;
+    max-width: 20%;
+    margin: 1em;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.card1:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+.card2{
+    background-color: black;
+    background: #000000df;
+    border-color: #ff004f;
+    border-style: solid;
+    padding: 1em;
+    border-radius: 30px;
+    width: 24%;
+    max-width: 20%;
+    margin: 1em;
+    color: white;
+    transition: 0.5s;
+}
+.card2:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+.card3{
+    background-color: black;
+    background: #000000df;
+    border-color: #ff004f;
+    border-style: solid;
+    padding: 1em;
+    border-radius: 30px;
+    width: 24%;
+    max-width: 20%;
+    margin: 1em;
+    color: white;
+    transition: 0.5s;
+}
+.card3:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+    
+}
+.card4{
+    background-color: black;
+    background: #000000df;
+    border-color: #ff004f;
+    border-style: solid;
+    padding: 1em;
+    border-radius: 30px;
+    width: 20%;
+    max-width: 20%;
+    margin: 1em;
+    color: white;
+    transition: 0.5s;
+}
+.card4:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+    
+}
+.Pendulum{
+    text-align: center;
+}
+.Pendulum a{
+    text-decoration: none;
+    color: white;
+}
+
+.Billiards{
+    text-align: center;
+}
+.Billiards a{
+    text-decoration: none;
+    color: white;
+}
+
+.Fractals{
+    text-align: center;
+}
+.Fractals a{
+    text-decoration: none;
+    color: white;
+}
+.FractionalBrownianMotion {
+    text-align: center;
+}
+.FractionalBrownianMotion a{
+    text-decoration: none;
+    color: white;
+}

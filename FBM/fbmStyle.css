@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    background-position: center;
+
+}
+.header{
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 20%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  #controls{
+    position: absolute;
+    top:90%;
+    left:43.5%;
+    font-size: large;
+  }
+  #container{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    display: flex;
+    width: 50%;
+    height: 75%;
+    border-color: white;
+    border-style: solid;
+    justify-items: center;
+  }
+
+  label{
+    color: white;
+    align-self: center;
+  }
